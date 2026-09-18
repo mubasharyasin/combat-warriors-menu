@@ -1,0 +1,16 @@
+# Text file normalization
+# Exclude build artifacts
+src/**/*.ts linguist-detectable
+
+vendor/* linguist-vendored
+
+*.min.css linguist-generated
+*.md linguist-documentation
+build/* linguist-vendored
+yarn.lock linguist-generated
+
+src/** linguist-detectable
+*.html linguist-vendored
+
+*.gif binary
+*.woff binary
