@@ -1,0 +1,7 @@
+*.tgz
+coverage/
+.next/
+.DS_Store
+.cache/
+.env
+*.log
